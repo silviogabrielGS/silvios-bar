@@ -1,0 +1,17 @@
+#image-banner-home{
+    width: 100vw;
+    height: 500px;
+    background-image: url('../images/Imagem-bar-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:568px) {
+    #image-banner-home{
+        width: 100vw;
+        height: 300px;
+        background-image: url('../images/Imagem-bar-home.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
