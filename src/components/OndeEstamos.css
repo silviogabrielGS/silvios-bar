@@ -8,6 +8,19 @@
     max-width: 1400px;
 }
 
+#iframe{
+    width: 40vw;
+    height: 400px;
+}
+
 #paragrafo-ondeestamos{
-    max-width: 700px;
+    max-width: 400px;
+}
+
+@media (max-width:578px) {
+    #iframe{
+        width: 60vw;
+        height: 300px;
+    }
+    
 }

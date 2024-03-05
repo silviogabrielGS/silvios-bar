@@ -1,0 +1,21 @@
+img,p {
+    width: 300px;
+    height: 300px;
+}
+
+#container-produtos div{
+    border-right: 2px solid #F29F05;
+}
+
+@media (max-width:578px) {
+    img,p {
+        width: 200px;
+        height: 200px;
+    }
+
+    #container-produtos div{
+        border-top: 2px solid #F29F05;
+        border-right: none;
+    }
+}
+
