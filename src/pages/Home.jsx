@@ -3,6 +3,7 @@ import Banner from '../components/Banner'
 import QuemSomos from '../components/QuemSomos';
 import OndeEstamos from '../components/OndeEstamos';
 import ProdutosHome from '../components/ProdutosHome';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home(){
@@ -15,7 +16,7 @@ function Home(){
             <OndeEstamos></OndeEstamos>
             <ProdutosHome></ProdutosHome>
             <div className='d-flex justify-content-center aling-items-center p-5'>
-                <button id='btn' className=" btn btn-lg btn-secondary ">Clique Aqui</button>
+                <Link to={'/Cardapio'}><button id='btn' className=" btn btn-lg btn-secondary ">Clique Aqui</button></Link>
             </div>
             
             

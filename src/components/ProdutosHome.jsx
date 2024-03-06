@@ -9,7 +9,7 @@ function ProdutosHome() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas, quam iusto dolorum neque incidunt voluptas a deserunt expedita voluptate voluptatum, laboriosam, quod optio tempora voluptatibus nemo nulla? Minus, blanditiis.</p>
             </div>
             <div className='p-5'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas, quam iusto dolorum neque incidunt voluptas a deserunt expedita voluptate voluptatum, laboriosam, quod optio tempora voluptatibus nemo nulla? Minus, blanditiis.</p>
+                <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas, quam iusto dolorum neque incidunt voluptas a deserunt expedita voluptate voluptatum, laboriosam, quod optio tempora voluptatibus nemo nulla? Minus, blanditiis.</p>
                 <img className="bg-light m-2" src="" alt="" />
             </div>
             <div className='p-5'>
@@ -17,7 +17,7 @@ function ProdutosHome() {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas, quam iusto dolorum neque incidunt voluptas a deserunt expedita voluptate voluptatum, laboriosam, quod optio tempora voluptatibus nemo nulla? Minus, blanditiis.</p>
             </div>
             <div className='p-5 '>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas, quam iusto dolorum neque incidunt voluptas a deserunt expedita voluptate voluptatum, laboriosam, quod optio tempora voluptatibus nemo nulla? Minus, blanditiis.</p>
+                <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas, quam iusto dolorum neque incidunt voluptas a deserunt expedita voluptate voluptatum, laboriosam, quod optio tempora voluptatibus nemo nulla? Minus, blanditiis.</p>
                 <img className="bg-light m-2" src="" alt="" />
             </div>      
         </div>
