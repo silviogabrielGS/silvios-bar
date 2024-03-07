@@ -1,0 +1,8 @@
+#card{
+    width: 350px;
+    height: 400px;
+}
+
+#card-body{
+    border-left:2px darkgray solid ;
+}
