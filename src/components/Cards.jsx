@@ -1,14 +1,15 @@
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 import './Cards.css';
 
 function Cards(card) {
     return (
         <>
             <Card id='card' className='d-flex flex-wrap' >
-                <Card className='p-2 w-50 my-auto '> 
-                    <img className='w-100' src={card.src} alt="" />
+                <Card className='m-1 w-50 my-auto '> 
+                    <img className='w-100' src={card.src} alt={card.alt} />
                 </Card>
                 <Card.Body id='card-body' className=' w-50'>
                     <Card.Title className='p-2 text-center'>{card.title}</Card.Title>
@@ -18,7 +19,7 @@ function Cards(card) {
                     <Card.Footer className="my-2 d-flex justify-content-between align-items-center ">
                         <span>preço</span> <span>{card.preco}</span>
                     </Card.Footer>
-                    <Button className=' mx-auto w-100' variant="primary">Comprar</Button>
+                    <a href='https://api.whatsapp.com/send?phone=5511939460060&text=olá+quero+comprar+um+pijama&oq=olá+quero+comprar+uma+cachaça&'><Button className=' mx-auto w-100' variant="primary">Comprar</Button></a>
                 </Card.Body>
 
             </Card>

@@ -1,0 +1,34 @@
+.garrafa {
+    height: 100px;
+    width: fit-content;
+}
+
+#cardapio-faixa{
+    border-bottom: 2px solid #F29F05;
+    border-right: none;
+}
+
+#cardapio{
+    background-color: #eeeeee;
+}
+
+.btn{
+    background-color: #F29F05;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #c47f01;
+}
+
+@media (max-width:578px) {
+    
+    .garrafa {
+        height: 50px;
+        width: fit-content;
+    }
+
+    section h1{
+        font-size: 1.5em;
+    }
+}

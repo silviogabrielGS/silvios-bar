@@ -3,6 +3,7 @@ import Banner from '../components/Banner'
 import QuemSomos from '../components/QuemSomos';
 import OndeEstamos from '../components/OndeEstamos';
 import ProdutosHome from '../components/ProdutosHome';
+import IconeWhatsapp from '../components/IconeWhatsapp'
 import { Link } from 'react-router-dom';
 import './Home.css';
 
@@ -18,8 +19,6 @@ function Home(){
             <div className='d-flex justify-content-center aling-items-center p-5'>
                 <Link to={'/Cardapio'}><button id='btn' className=" btn btn-lg btn-secondary ">Clique Aqui</button></Link>
             </div>
-            
-            
             
         </>
     )
