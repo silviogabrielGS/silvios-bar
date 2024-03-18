@@ -11,9 +11,9 @@ function Menu() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-auto">
             <Nav.Link href={'/'}>Home</Nav.Link>
-            <Nav.Link href={'/Cardapio'}>Cardápio</Nav.Link>
-            <Nav.Link href="#link">Quem Somos</Nav.Link>
-            <Nav.Link href="#link">Onde Estamos</Nav.Link>
+            <Nav.Link href={'/Cardapio'}>Catálogo</Nav.Link>
+            <Nav.Link href={'/#quemsomos'}>Quem Somos</Nav.Link>
+            <Nav.Link href={'/#ondeestamos'}>Onde Estamos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

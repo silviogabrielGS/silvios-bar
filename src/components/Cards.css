@@ -3,6 +3,7 @@
     height: 400px;
 }
 
-#card-body{
-    border-left:2px darkgray solid ;
+
+#img-card{
+    height: max-content;
 }

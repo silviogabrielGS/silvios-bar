@@ -1,6 +1,6 @@
 img,p {
     width: 300px;
-    height: 300px;
+
 }
 
 #container-produtos div{
@@ -10,7 +10,6 @@ img,p {
 @media (max-width:578px) {
     img,p {
         width: 200px;
-        height: 200px;
     }
 
     #container-produtos div{

@@ -16,9 +16,6 @@ function Home(){
             <div id='linhaamarela'/>
             <OndeEstamos></OndeEstamos>
             <ProdutosHome></ProdutosHome>
-            <div className='d-flex justify-content-center aling-items-center p-5'>
-                <Link to={'/Cardapio'}><button id='btn' className=" btn btn-lg btn-secondary ">Clique Aqui</button></Link>
-            </div>
             
         </>
     )
