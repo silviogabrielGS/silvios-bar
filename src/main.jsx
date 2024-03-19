@@ -7,7 +7,7 @@ import './index.css'
 import Cardapio from './pages/Cardapio.jsx';
 
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: '/silvios-bar',
     element: <App></App>,
