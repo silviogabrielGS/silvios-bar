@@ -8,11 +8,11 @@ import Cardapio from './pages/Cardapio.jsx';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/silvios-bar',
     element: <App></App>,
   }, 
   {
-    path: '/Cardapio',
+    path: '/silvios-bar/Cardapio',
     element : <Cardapio></Cardapio>,
   }
 
